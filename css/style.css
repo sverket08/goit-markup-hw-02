@@ -1,20 +1,186 @@
+:root{
+   --main-color:#2F303A; 
+   --secondary-color:#F5F4FA;
+   --title-color: #212121;
+   --text-color: #757575;
+   --accept-color: #2196F3;
+   --bgd-color:#FFFFFF;
+   --logo-color:#000000;
+}
+
 body {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bgd-color);
+}
+
+/* Меню */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color:var(--accept-color);
+    text-decoration: none;    
+}
+
+.logo-header{
+    color:var(--logo-color);
+}
+
+.logo-footer{
+    color:var(--bgd-color)
+}
+
+.header-list-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+
+.mail-link{
+    color:var(--accept-color);
+}
+
+.tell-link{
+     color:var(--text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.active-link{
+    color:var(--accept-color);
 }
 
 /*Заголовок*/
 .title {
-    background: #2F303A;
+    background:var(--main-color);
 }
-.title-text{
-    color:#FFFFFF;
+.title-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+/* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--bgd-color);
 }
-/*Переваги*/
+
+.button{
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background:var(--accept-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.text-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(16/30);
+/* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    color: #FFFFFF;
+}
+/*Переваги*/  
 .benefit {
     background: #F5F5F5;
 }
+
+.benefit-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-color);
+}
+
+.benefit-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(14/24);
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color:var(--text-color);
+}
+/* Чим займаємося */
+.work {
+    background: #F5F5F5;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(36/42);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-color)
+}
 /* Наша команда*/
 .team {
-    background: #F5F4FA;
+    background:var(--secondary-color);
+}
+
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--title-color);
+}
+
+.team-foto {
+    background: url(2968.jpg);
+    border-radius: 0px;
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color:var(--title-color);
+}
+
+.team-aside{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+     color:var(--text-color);
+}
+
+/* Підвал */
+.footer{
+
+    background: #2F303A;
+}
+.footer-address {
+    font-family: 'Roboto', sans-serif;
+}
+.footer-link-adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color:var(--bgd-color);
+}
+.footer-link-mail link,.footer-link-tell, {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
 }
