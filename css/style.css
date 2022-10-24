@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
     background-color: var(--bgd-color);
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 /*Заголовок*/
-.title {
+.main-title, .footer {
     background:var(--main-color);
 }
 .title-text {
@@ -163,13 +164,6 @@ color:var(--title-color);
 }
 
 /* Підвал */
-.footer{
-
-    background: #2F303A;
-}
-.footer-address {
-    font-family: 'Roboto', sans-serif;
-}
 .footer-link-adress{
     font-weight: 400;
     font-size: 14px;

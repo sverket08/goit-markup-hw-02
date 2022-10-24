@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
+    <style type="text/css"></style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,30 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Roboto:wght@400;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <a href="#" rel="noopener nofollow" target="_blank"><span class="logo" Web>Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li><a href="#">Студія</a></li>
-                <li><a href="#" class="caren">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-                <li><a href="tel:+380961111111"> +38096 111 11 11 </a></li>
+    <header>
+        <a class="logo" href="#" rel="noopener nofollow" target="_blank">Web<span class="logo-header">Studio</span></a>
+        <nav class="header-nav">
+            <ul class="header-list list">
+                <li class="header-list-item"><a class="header-list-link link active-link " href="#">Студія</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="#">Портфоліо</a></li>
+                <li class="header-list-item"><a class="header-list-link link" href="#">Контакти</a></li>
+                <li class="header-list-item"><a class="header-list-link link mail-link" href="mailto:info@devstudio.com">
+                        info@devstudio.com </a></li>
+                <li class="header-list-item"><a class="header-list-link link tell-link" href="tel:+380961111111"> +38096 111
+                        11 11 </a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <h1 hidden>Портфоліо</h1>
         <!--кнопки посилання-->
-        <section class="">
+        <section class="filter">
             <ul class="list">
                 <li><button type="button">Усі</button></li>
                 <li><button type="button">Веб-сайти</button></li>
@@ -36,51 +42,78 @@
             </ul>
         </section>
         <section>
-            <ul class="list">
+            <ul class="portfolio-list list">
                 <li>
-                    <img src="img/project1.jpg" alt="card1" width="370">
-                    <h2>Технокряк</h2>
-                    <h3>Веб-сайт</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project1.jpg" alt="card1" width="370">
+                        <h2>Технокряк</h2>
+                        <h3>Веб-сайт</h3>
+                        <p></p>
+                    </a>
                 </li>
                 <li>
-                    <img src="img/project2.jpg" alt="card2" width="370">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <h3>Дизайн</h3>
+                    <a class="portfolio-list-link link>
+                        <img src="img/project2.jpg" alt="card2" width="370">
+                        <h2>Постер New Orlean vs Golden Star</h2>
+                        <h3>Дизайн</h3>
+                        <p></p>
+                    </a>   
                 </li>
                 <li>
-                    <img src="img/project3.jpg" alt="card3" width="370">
-                    <h2>Ресторан Seafood</h2>
-                    <h3>Додаток</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project3.jpg" alt="card3" width="370">
+                        <h2>Ресторан Seafood</h2>
+                        <h3>Додаток</h3>
+                        <p></p>
+                    </a>             
                 </li>
                 <li>
-                    <img src="img/project4.jpg" alt="card4" width="370">
-                    <h2>Проєкт Prime</h2>
-                    <h3>Маркетинг</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project4.jpg" alt="card4" width="370">
+                        <h2>Проєкт Prime</h2>
+                        <h3>Маркетинг</h3>
+                        <p></p>
+                    </a>                   
                 </li>
                 <li>
-                    <img src="img/project5.jpg" alt="card5" width="370">
-                    <h2>Проєкт Boxes</h2>
-                    <h3>Додаток</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project5.jpg" alt="card5" width="370">
+                        <h2>Проєкт Boxes</h2>
+                        <h3>Додаток</h3>
+                        <p></p>
+                    </a>                   
                 </li>
                 <li>
-                    <img src="img/poject6.jpg" alt="card6" width="370">
-                    <h2>Inspiration has no Borders</h2>
-                    <h3>Веб-сайт</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/poject6.jpg" alt="card6" width="370">
+                        <h2>Inspiration has no Borders</h2>
+                        <h3>Веб-сайт</h3>
+                        <p></p>
+                    </a>                    
                 </li>
                 <li>
-                    <img src="img/project7.jpg" alt="card7" width="370">
-                    <h2>Видання Limited Edition</h2>
-                    <h3>Дизайн</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project7.jpg" alt="card7" width="370">
+                        <h2>Видання Limited Edition</h2>
+                        <h3>Дизайн</h3>
+                        <p></p>
+                    </a>                   
                 </li>
                 <li>
-                    <img src="img/project8.jpg" alt="card8" width="370">
-                    <h2>Проєкт LAB</h2>
-                    <h3>Маркетинг</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project8.jpg" alt="card8" width="370">
+                        <h2>Проєкт LAB</h2>
+                        <h3>Маркетинг</h3>
+                        <p></p>
+                    </a>                    
                 </li>
                 <li>
-                    <img src="img/project9.jpg" alt="card9" width="370">
-                    <h2>Growing Business</h2>
-                    <h3>Додаток</h3>
+                    <a class="portfolio-list-link link">
+                        <img src="img/project9.jpg" alt="card9" width="370">
+                        <h2>Growing Business</h2>
+                        <h3>Додаток</h3>
+                         <p></p>
+                    </a>
                 </li>
             </ul>
         </section>
