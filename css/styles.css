@@ -1,0 +1,65 @@
+:root{
+    --top-color:#F5F5F5;
+    --header-color:#FFFFFF;
+    --main-color: #2F303A;
+    --second-color: #F5F4FA;
+    --card-color:#EEEEEE;
+    --title-color:#212121;
+    --text-color:#757575;
+    --accent-color:#2196F3;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--top-color);
+    color:var(--text-color)
+}
+
+/* Оформлення шапки */
+.header{
+    background-color: var(--header-color);
+    font-weight: 500;
+}
+.link{
+    text-decoration: none;
+    color:var(--title-color);
+}
+.list{
+    list-style: none;
+}
+.mail-tell{
+    color:var(--text-color);
+}
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color:var(--accent-color);
+}
+.logo-header{
+    color:var(--title-color)
+}
+ .logo-footer{
+    color:var(--header-color)
+}
+
+/* Головна сторінка */
+
+
+/* Підвал */
+.footer{
+    background-color:var(--main-color);
+}
+.footer-adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:var(--header-color)
+}
+.footer-link-adress{
+    color: #FFFFFF;
+}
