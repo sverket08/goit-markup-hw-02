@@ -27,9 +27,6 @@ body{
 .list{
     list-style: none;
 }
-.mail-tell{
-    color:var(--text-color);
-}
 .logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -44,22 +41,161 @@ body{
  .logo-footer{
     color:var(--header-color)
 }
+.header-nav .header-menu:hover, 
+.header-nav .header-menu:focus{
+    color:var(--accent-color);
+}
 
-/* Головна сторінка */
+/* Головна сторінка - main*/
+.main-container{
+    background:var(--main-color);
+}
+.title-main{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-button{
+    position: ;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background: #2196F3;
+    color:var(--header-color);
+}
+[type="button"]:hover{
+    color:#2F303A;
+}
 
+/* Переваги */
+.benefit{
+
+}
+.benefit-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.benefit-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+/* Чим займаємося& */
+.work{
+
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.foto {
+    position: ;
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1632px;
+    background: url(2968);
+    border-radius: 0px;
+}
+
+/* наша команда */ 
+.team {
+    background: var(--second-color);
+}
+.team-card{
+    background: url(4853.jpg);
+    border-radius: 0px;
+}
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team-aside {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
 
 /* Підвал */
 .footer{
     background-color:var(--main-color);
 }
-.footer-adress{
-    font-family: 'Roboto';
+.footer-link{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color:var(--header-color)
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
-.footer-link-adress{
-    color: #FFFFFF;
+ /*Сторінка портфоліо */
+
+ /* Кнопки */
+
+ .button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+ }
+ .button:hover, .button:focus{
+    background:var(--accent-color);
+    color:var(--header-color);
+
+ }
+ /* Картки з меню */
+.caption{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
 }
+.card-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+ 
