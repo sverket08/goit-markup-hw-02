@@ -12,7 +12,6 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     background-color: var(--body-color);
 }
 
@@ -27,6 +26,7 @@ body{
 .logo{
     font-family: 'Raleway';
     font-weight: 700;
+    font-size: 26px;
     line-height: 1.19;
     color:var(--accent-color);
 }
@@ -36,6 +36,15 @@ body{
 .logo-footer{
     color:var(--body-color)
 }
+
+.header-menu{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+
 .header-menu:hover, 
 .header-menu:focus{
     color:var(--accent-color);
@@ -44,6 +53,8 @@ body{
     color:var(--accent-color);
 }
 .contact{
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -54,11 +65,13 @@ body{
     background:var(--main-color);
 }
 .title-main{
+    font-weight: 900;
+    font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color:var(--body-color);
 }
 .main-button{
     position: ;
@@ -69,12 +82,14 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
-    background: #2196F3;
+    background: var(--accent-color);
     color:var(--body-color);
 }
 [type="button"]:hover{
-    background: #188CE8;;
+    background: #188CE8;
 }
 [type="button"]:focus{
    background-color: #188CE8;
@@ -86,12 +101,14 @@ body{
 
 }
 .benefit-title {
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
 .benefit-text{
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -102,6 +119,7 @@ body{
 }
 
 .title {
+    font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
@@ -126,13 +144,14 @@ body{
     border-radius: 0px;
 }
 .team-name {
-    font-weight: 500;
+    font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
 
 .team-aside {
+    font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -147,9 +166,14 @@ body{
 }
 
 .footer-link{
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--accent-color);
 }
 .adress{
     color: var(--body-color);
@@ -160,6 +184,9 @@ body{
  /* Кнопки */
 
  .button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
@@ -167,16 +194,18 @@ body{
  }
  .button:hover, .button:focus{
     background:var(--accent-color);
-    color:var(--header-color);
+    color:var(--body-color);
 
  }
  /* Картки з меню */
 .caption{
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
 }
 .card-desc{
+    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-color);
